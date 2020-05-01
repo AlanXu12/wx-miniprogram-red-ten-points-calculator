@@ -1,0 +1,1 @@
+# wx-miniprogram-red-ten-points-calculator
