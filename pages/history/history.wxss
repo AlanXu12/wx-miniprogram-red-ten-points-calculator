@@ -1,0 +1,15 @@
+/* pages/history/history.wxss */
+.point-history-records-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.point-history-record-element {
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+}
+
+.point {
+  font-weight: bold;
+}

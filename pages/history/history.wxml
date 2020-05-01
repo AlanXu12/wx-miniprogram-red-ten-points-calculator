@@ -1,0 +1,12 @@
+<view class="page-title">
+    历史记录 - {{selectedPlayer.name}}
+</view>
+
+<view>
+    <view class="point-history-records-container" wx:for="{{selectedPlayer.pointHistory}}" wx:key="id">
+        <view class="point-history-record-element">{{index+1}}:</view>
+        <view class="point-history-record-element point">{{item}}</view>
+    </view>
+      
+</view>
+  

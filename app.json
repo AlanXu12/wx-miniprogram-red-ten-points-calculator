@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/game/game",
+    "pages/history/history",
+    "pages/onePointWin/onePointWin",
+    "pages/twoPointsWin/twoPointsWin",
+    "pages/doubleTenWin/doubleTenWin",
+    "pages/doubleTenLose/doubleTenLose",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

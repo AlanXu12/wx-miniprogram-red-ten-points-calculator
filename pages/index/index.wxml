@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="page-title">
+    红十大战
+</view>
+
+<form bindsubmit="startGameHandler">
+  <view class="players-container">
+    <view class="player">
+      <view class="">
+        玩家1:
+      </view>
+      <view class="">
+        <input name="player0" class="weui-input" maxlength="20" placeholder="最大输入长度为20" />
+      </view>
+    </view>
+    <view class="player">
+      <view class="">
+        玩家2:
+      </view>
+      <view class="">
+        <input name="player1" class="weui-input" maxlength="20" placeholder="最大输入长度为20" />
+      </view>
+    </view>
+    <view class="player">
+      <view class="">
+        玩家3:
+      </view>
+      <view class="">
+        <input name="player2" class="weui-input" maxlength="20" placeholder="最大输入长度为20" />
+      </view>
+    </view>
+    <view class="player">
+      <view class="">
+        玩家4:
+      </view>
+      <view class="">
+        <input name="player3" class="weui-input" maxlength="20" placeholder="最大输入长度为20" />
+      </view>
+    </view>
+  </view>
+
+  <button formType="submit">
+    开始游戏
+  </button>
+</form>
+
+<mp-dialog title="错误" show="{{errorDialogShow}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+    <view>请确保每个玩家都有唯一昵称</view>
+</mp-dialog>
+  
+
+  
+  

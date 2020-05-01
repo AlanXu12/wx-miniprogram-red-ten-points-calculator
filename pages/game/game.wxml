@@ -1,0 +1,26 @@
+<!--pages/game/game.wxml-->
+<view class="page-title">
+    红十大战
+</view>
+
+<view class="player-list" wx:for="{{playerList}}" wx:key="id">
+    <view><text>{{item.name}}: {{item.curTotal}}</text></view>
+    <view><button bindtap="checkHistory" data-id="{{item.id}}">历史</button></view>
+</view>
+  
+
+<view class="add-points-buttons-container">
+    <button class="add-points-button" bindtap="onePointWinHandler">1-3 赢 （1分）</button>
+    <button class="add-points-button" bindtap="twoPointsWinHandler">1-2 赢 （2分）</button>
+    <button class="add-points-button" bindtap="doubleTenWinHandler">双红十 赢 （12分）</button>
+    <button class="add-points-button" bindtap="doubleTenLoseHandler">双红十 输 （-12分）</button>
+</view>
+
+<button class="restart-button" bindtap="restartHandler">重新开始</button>
+
+<mp-dialog title="警告" show="{{dialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+    <view>重新开始游戏，确认后无法撤销操作！！！</view>
+</mp-dialog>
+  
+
+

@@ -1,0 +1,42 @@
+/**app.wxss**/
+@import "./components/weui-wxss/dist/style/weui.wxss";
+
+input {
+  border: 5rpx solid black;
+  border-radius: 10rpx;
+  width: 350rpx !important;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.page-title {
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.player-checkbox-container {
+  flex-direction: column;
+}
+
+.player-checkbox {
+  margin: 50rpx;
+}
+
+.operation-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50rpx;
+}

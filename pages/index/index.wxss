@@ -1,0 +1,16 @@
+/**index.wxss**/
+.players-container {
+  margin-top: 350rpx;
+}
+
+.player {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25rpx;
+  margin-bottom: 25rpx;
+}
+
+button {
+  margin-top: 200rpx;
+}

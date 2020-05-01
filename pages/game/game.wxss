@@ -1,0 +1,11 @@
+/* pages/game/game.wxss */
+.player-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 50rpx;
+}
+
+.add-points-button {
+  width: 650rpx !important;
+  margin: 50rpx;
+}
