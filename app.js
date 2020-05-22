@@ -33,37 +33,37 @@ App({
       },
     });
   },
-  globalData: {
-    // playerList: [
-    //   {
-    //     id: 0,
-    //     name: "Alan",
-    //     pointHistory: [1, 2, -1, -2, +12],
-    //     curTotal: 12,
-    //   },
-    //   {
-    //     id: 1,
-    //     name: "Qunnie",
-    //     pointHistory: [1, 2, -1, -2, +12],
-    //     curTotal: 12,
-    //   },
-    //   {
-    //     id: 2,
-    //     name: "Gilbert",
-    //     pointHistory: [-1, -2, 1, 2, -12],
-    //     curTotal: -12,
-    //   },
-    //   {
-    //     id: 3,
-    //     name: "Yvonne",
-    //     pointHistory: [-1, -2, 1, 2, -12],
-    //     curTotal: -12,
-    //   },
-    // ],
-  },
-  updateCurTotal() {
-    this.globalData.playerList.forEach((player) => {
-      player.curTotal = player.pointHistory.reduce((a, b) => a + b, 0);
-    });
-  },
+  // globalData: {
+  //   playerList: [
+  //     {
+  //       id: 0,
+  //       name: "Alan",
+  //       pointHistory: [1, 2, -1, -2, +12],
+  //       curTotal: 12,
+  //     },
+  //     {
+  //       id: 1,
+  //       name: "Qunnie",
+  //       pointHistory: [1, 2, -1, -2, +12],
+  //       curTotal: 12,
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "Gilbert",
+  //       pointHistory: [-1, -2, 1, 2, -12],
+  //       curTotal: -12,
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "Yvonne",
+  //       pointHistory: [-1, -2, 1, 2, -12],
+  //       curTotal: -12,
+  //     },
+  //   ],
+  // },
+  // updateCurTotal() {
+  //   this.globalData.playerList.forEach((player) => {
+  //     player.curTotal = player.pointHistory.reduce((a, b) => a + b, 0);
+  //   });
+  // },
 });

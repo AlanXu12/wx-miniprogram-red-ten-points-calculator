@@ -1,13 +1,13 @@
 // pages/game/game.
-let app = getApp();
 Page({
   data: {
     dialogShow: false,
     buttons: [{ text: "取消" }, { text: "确定" }],
   },
-  onLoad: function (options) {
+  onShow: function (options) {
+    let playerList = wx.getStorageSync("playerList");
     this.setData({
-      playerList: app.globalData.playerList,
+      playerList,
     });
     wx.hideHomeButton();
   },
@@ -52,6 +52,8 @@ Page({
         dialogShow: false,
       });
     } else {
+      // clean up game data in local storage and redirect back to home page
+      wx.setStorageSync("playerList", []);
       wx.redirectTo({
         url: "../index/index",
       });
