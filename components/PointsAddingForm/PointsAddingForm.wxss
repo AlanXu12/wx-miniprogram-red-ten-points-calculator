@@ -1,0 +1,23 @@
+@import "../weui-wxss/dist/style/weui.wxss";
+
+.page_title {
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.player_checkbox_container {
+  flex-direction: column;
+}
+
+.player_checkbox {
+  margin: 50rpx;
+}
+
+.operation_buttons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50rpx;
+}

@@ -1,0 +1,23 @@
+<view class="page_title">{{formTitle}}</view>
+<view>
+    <checkbox-group bindchange="winnerSelectHandler">
+        <view class="player_checkbox_container" wx:for="{{playerList}}" wx:key="id">
+            <checkbox class="player_checkbox" checked="{{checked}}" value="{{item.id}}">
+                {{item.name}}
+            </checkbox>
+        </view>
+    </checkbox-group>
+</view>
+<view class="operation_buttons_container">
+    <view>
+        <checkbox-group bindchange="doublePointsHandler">
+            <checkbox checked="{{isDoublePoints}}">亮牌加倍</checkbox>
+        </checkbox-group>
+    </view>
+    <view>
+        <button bindtap="winConfirmHandler">确认</button>
+    </view>
+</view>
+<mp-dialog title="错误" show="{{errorDialogShow}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+    <view>{{errorMsg}}</view>
+</mp-dialog>
