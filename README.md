@@ -7,7 +7,8 @@ __[中文版文档](cn)__ / __[English Version Documentation](en)__
 这是一款基于微信小程序的计分器。用于线下“红十”游戏的计分，游戏规则基于[嘉兴红十](https://baike.baidu.com/item/嘉兴红十)。
 
 使用本小程序，请扫描下方二维码:
-![](https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true)
+
+<img src="https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true" style="zoom:150%;" />
 
 #### 历史版本:
 
@@ -24,18 +25,21 @@ __[中文版文档](cn)__ / __[English Version Documentation](en)__
 
   _*注: 以上所有情况如有开局亮牌，所有加/减分翻倍_
 
-- 加/减 分历史
+- 加/减分历史
 
 - 重新开始游戏
 
 - 使用本地储存游戏数据代替缓存 以解决重启小程序后数据丢失问题
+
+
 
 <a name="en" />
 
 This is a points calculator based on Wechat Mini Program for the card game called "Red Ten" using this [rule](https://baike.baidu.com/item/嘉兴红十) as the basis.
 
 For uisng this Mini Program, please scan the QR Code below:
-![](https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true)
+
+<img src="https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true" style="zoom:150%;" />
 
 #### Release History:
 
