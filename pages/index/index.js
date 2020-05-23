@@ -5,6 +5,17 @@ Page({
     oneButton: [{ text: "确定" }],
     defaultContent: null,
   },
+  onLoad() {
+    // check if game data already exists in local storage
+    const playerList = wx.getStorageSync("playerList") || [];
+    if (playerList.length !== 0) {
+      wx.redirectTo({
+        url: "/pages/game/game",
+      });
+      return;
+    }
+  },
+
   // error pop-up dialog OK button handler
   tapDialogButton(e) {
     // dismiss error pop-up and reset selection
