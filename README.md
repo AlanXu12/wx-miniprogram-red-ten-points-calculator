@@ -1,6 +1,6 @@
 # wx-miniprogram-red-ten-points-calculator
 
-__[中文版文档](cn)__ / __[English Version Documentation](en)__
+__[中文版文档](#cn)__ / __[English Version Documentation](#en)__
 
 <a name="cn" />
 
