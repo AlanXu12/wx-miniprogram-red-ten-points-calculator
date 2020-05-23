@@ -8,7 +8,7 @@ __[中文版文档](#cn)__ / __[English Version Documentation](#en)__
 
 这是一款基于微信小程序的计分器。用于线下“红十”游戏的计分，游戏规则基于[嘉兴红十](https://baike.baidu.com/item/嘉兴红十)。
 
-使用本小程序，请扫描下方二维码:
+使用本小程序，请使用微信扫描下方二维码:
 
 <img src="https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true" style="zoom:150%;" />
 
@@ -41,7 +41,7 @@ __[中文版文档](#cn)__ / __[English Version Documentation](#en)__
 
 This is a points calculator based on Wechat Mini Program for the card game called "Red Ten" using this [rule](https://baike.baidu.com/item/嘉兴红十) as the basis.
 
-For uisng this Mini Program, please scan the QR Code below:
+For uisng this Mini Program, please scan the QR Code below (required to use the scanner in [Wechat](https://www.wechat.com/en/)):
 
 <img src="https://github.com/AlanXu12/pic-repo/blob/master/red_ten_points_calculator_qr_code.jpg?raw=true" style="zoom:150%;" />
 
